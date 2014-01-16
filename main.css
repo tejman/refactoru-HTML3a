@@ -21,7 +21,7 @@
 	border-bottom: 0px;
 }
 
-.row {
+.stats-row {
 	border-top: 1px solid #bdbdbd ;
 	border-bottom: 1px solid #bdbdbd; 
 }
@@ -72,9 +72,9 @@
 	width: 90%;
 }
 
-/*  CSS FORMATTING FOR THE LIGHT BOX
+/*/*  CSS FORMATTING FOR THE LIGHT BOX*/
 
-.light-box {
+/*.light-box {
 	margin: 100px auto;
 	background-color: #FFFFFF;
 	-webkit-border-radius: 5px;
@@ -104,6 +104,4 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-} 
-
-END LIGHT BOX CODE*/ 
+} */
