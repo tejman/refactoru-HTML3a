@@ -1,0 +1,109 @@
+/* ADD YOUR STYLES HERE */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+ }
+
+
+.data-table {
+	width: 100%;
+}
+
+.data-table td, .data-table th {
+	padding: 10px;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+.data-table tr:last-child td {
+	padding: 10px;
+	border-bottom: 0px;
+}
+
+.row {
+	border-top: 1px solid #bdbdbd ;
+	border-bottom: 1px solid #bdbdbd; 
+}
+
+.stats-cell {
+	padding: 15px;
+}
+
+.stat-num {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.stat-note {
+	color: #B9CBDB;
+	font-size: 12px;
+}
+
+.data-chart {
+	width: 100%;
+}
+
+.data-bar {
+	background-color: #599EDE;
+	margin: 0 1%;
+	color: #FFF;
+	font-size: 14px;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+
+}
+
+.data-chart th {
+	width: 12%;
+	text-align: right;
+}
+
+.thumbnail {
+	display: inline-block;
+	padding-right: 1%;
+	vertical-align: top;
+	max-width: 10%;
+}
+
+.thumbnail-text {
+	display: inline-block;
+	width: 90%;
+}
+
+/*  CSS FORMATTING FOR THE LIGHT BOX
+
+.light-box {
+	margin: 100px auto;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 5px;
+	border: 1px solid black;
+	overflow: hidden;
+	padding: 2%;
+	width: 70%;
+	z-index: 1002;
+}
+
+.light-box > div:last-child {
+	text-align: center;
+	float: right;
+	background-color: #ED818A;
+	width: auto;
+	padding: 1% 4%;
+	-webkit-border-radius: 5px;
+	color: #FFF;
+
+}
+
+.dark-back {
+	position: fixed;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: 1001;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} 
+
+END LIGHT BOX CODE*/ 
